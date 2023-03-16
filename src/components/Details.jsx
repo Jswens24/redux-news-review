@@ -11,6 +11,9 @@ const Details = () => {
     return (
         <div>
             <p>{displayArticle.title}</p>
+            <img src={displayArticle.urlToImage} />
+            <p>{displayArticle.content}</p>
+            <a href={displayArticle.url} target='_blank'>See Full Article</a>
         </div>
     )
 }
